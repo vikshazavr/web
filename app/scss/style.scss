@@ -1,0 +1,25 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.header{
+    &__inner{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+    &__user-name{
+        padding-right: 13px;
+    }
+    &__user-avatar {
+        padding-right: 13px;
+    }
+}
+.header-right-inner {
+    display: flex;
+    align-items: center;
+}
